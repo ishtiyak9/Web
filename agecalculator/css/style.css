@@ -1,0 +1,77 @@
+/*
+Name: Age calculator
+Author: Shishir
+
+*/
+
+/*HEADER=========================================================================================*/
+#clockdate{
+	float:right;
+}
+.clockdate-wrapper {
+    background-color: #333;
+    padding:10px;
+    max-width:170px;
+    width:100%;
+    text-align:center;
+	height:30px;
+}
+#clock{
+    background-color:#333;
+    font-family: sans-serif;
+    font-size:15px;
+    text-shadow:0px 0px 1px #fff;
+    color:#fff;
+	margin:-10px 0 -5px 0;
+}
+#clock span {
+	color:#888;
+	text-shadow:0px 0px 1px #333;
+	font-size:7px;
+	position:relative;
+	top:-7px;
+}
+#date {
+    font-size:8px;
+    font-family:arial,sans-serif;
+    color:#fff;
+	margin-top:-20px 0 -10px 0;
+}
+nav.navbar-inverse{
+	height:30px;
+	position:fixed;
+	max-width:395px;
+	width:100%;
+	top:0;
+	z-index:99999999999;
+	margin:45px 0 0 -16px;
+}
+.hederimg{
+	margin:3px 0 0 3px;
+}
+/*=========================================================================================*/
+.visitor{
+	margin:0 -16px 0 -16px;
+	border-bottom: 3px groove cornflowerblue;
+}
+
+.codebody{
+	max-width:400px;
+	margin:20px;
+	border:3px groove cornflowerblue;
+}
+
+.title{
+	font-size:21px;
+	font-weight:bold;
+	margin:30px -16px 0 -16px;
+	border-top: 3px groove cornflowerblue;
+}
+
+.datepicker-here{
+	height:33px;
+}
+
+.alert{
+	max-width:400px;
+}
