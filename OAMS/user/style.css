@@ -1,0 +1,85 @@
+.navigation{list-style:none;margin: 0px;
+padding: 0px;}
+.navigation li {
+float: left;
+margin-right: 20px;
+margin-top: 2px;
+font-size: 14px;
+font-weight:bold;
+}
+.navigation li a{color:#333333;text-decoration:none}
+.navigation li a:hover{color:#006699;text-decoration:none}
+.notification_li{position:relative}
+#notificationContainer {
+background-color: #fff;
+border: 1px solid rgba(100, 100, 100, .4);
+-webkit-box-shadow: 0 3px 8px rgba(0, 0, 0, .25);
+overflow: visible;
+position: absolute;
+top: 30px;
+margin-left: -170px;
+width: 384px;
+z-index: -1;
+display: none;
+height: 350px; /*//updated*/
+}
+#notificationContainer:before {
+content: '';
+display: block;
+position: absolute;
+width: 0;
+height: 0;
+color: transparent;
+border: 10px solid black;
+border-color: transparent transparent white;
+margin-top: -20px;
+margin-left: 188px;
+height: 350px; /*//updated*/
+}
+#notificationTitle {
+z-index: 1000;
+font-weight: bold;
+padding: 8px;
+font-size: 13px;
+background-color: #ffffff;
+width: 384px;
+border-bottom: 1px solid #dddddd;
+color:black;
+height: 18px;
+}
+#notificationsBody {
+/*padding: 33px 0px 0px 10px !important;*/
+padding-left: 10px;
+/*min-height:300px;*/
+color: black;
+text-align: left;
+height: 312px;
+line-height: 25px;
+position: fixed;
+z-index: 1;
+}
+#notificationFooter {
+background-color: #e9eaed;
+width: 384px; /*updated*/
+text-align: center;
+font-weight: bold;
+padding: 8px;
+font-size: 12px;
+border-top: 1px solid #dddddd;
+position: fixed; /*updated*/
+top:422;  /*updated*/
+/*margin-left: -10px; *//*updated*/
+height: 18px;
+}
+#notification_count {
+/*padding: 3px 7px 3px 7px;*/
+/*background: #cc0000;*/
+/*color: #ffffff;*/
+color: red;
+font-weight: bold;
+margin-left: 77px;
+border-radius: 9px;
+position: absolute;
+margin-top: -11px;
+font-size: 15px;
+}
